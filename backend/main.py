@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from models import CaptureResponse
 from parser import parse_pcap_bytes
 
-CORS_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173"]
+CORS_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173", "https://nedelcubianca.github.io"]
 ALLOWED_EXTENSIONS = {".pcap", ".pcapng"}
 
 # Aplicatia FastAPI
