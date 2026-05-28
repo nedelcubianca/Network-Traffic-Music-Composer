@@ -1,0 +1,15 @@
+{
+  "version": "0.2",
+  "words": [
+    "rdpcap",
+    "scapy",
+    "pcap",
+    "pydantic",
+    "uvicorn",
+    "haslayer",
+    "dport",
+    "pdst",
+    "fastapi", 
+    "harmonicity",
+  ]
+}

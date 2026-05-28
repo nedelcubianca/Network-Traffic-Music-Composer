@@ -1,0 +1,85 @@
+.packet-timeline {
+  margin-top: var(--space-xl);
+}
+
+.packet-timeline__canvas {
+  border: 1px solid var(--color-brown);
+  border-color: rgba(107, 68, 35, 0.25);
+  background: var(--color-white);
+  margin-top: var(--space-sm);
+}
+
+.packet-timeline__svg {
+  display: block;
+  width: 100%;
+  height: 190px;
+}
+
+.packet-timeline__svg .axis text {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  fill: rgba(26, 26, 26, 0.6);
+  letter-spacing: 0.01em;
+}
+
+.packet-timeline__svg .axis--x .tick line,
+.packet-timeline__svg .axis--x .domain {
+  stroke: rgba(107, 68, 35, 0.2);
+}
+
+.packet-timeline__svg .axis--y .domain {
+  display: none;
+}
+
+.packet-timeline__svg .axis--y .tick line {
+  display: none;
+}
+
+.packet-timeline__svg .axis--y text {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  fill: rgba(26, 26, 26, 0.7);
+}
+
+.packet-timeline__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
+  margin-top: var(--space-sm);
+}
+
+.packet-timeline__legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: rgba(26, 26, 26, 0.6);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.packet-timeline__legend-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 2px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.packet-timeline__legend-attack-zone {
+  display: inline-block;
+  margin-left: 4px;
+  width: 14px;
+  height: 10px;
+  background: rgba(180, 55, 55, 0.2);
+  border: 1px solid rgba(180, 55, 55, 0.4);
+  border-radius: 1px;
+  flex-shrink: 0;
+}
+
+.packet-timeline__legend-item--attack {
+  color: rgba(180, 55, 55, 0.8);
+}
